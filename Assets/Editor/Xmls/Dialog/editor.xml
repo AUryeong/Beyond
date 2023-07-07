@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XMLDialogs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Dialog>
+        <Bgm>School</Bgm>
+        <BG Name="AIRoom" Title="학교" Description="인공지능 융합실" Effect="FADE" Duration="2"/>
+        <Text>
+            <Name>학생</Name>
+            <Text>고민이네...</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" Clothes="Default" Face="Default" Pos="REND" Size="M" Dark="false"/>
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text Active="false">
+            <Name>???</Name>
+            <Text>뭐하고 있어?</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" Face="Default" Dark="false"/>
+        </Characters>
+        <Animations>
+            <Animation Type="CHAR" Name="Loli" Effect="Move" Parameter="R2" Duration="2"/>
+            <Animation Type="CHAR" Name="Loli" Effect="Bounce" Parameter="2" Duration="0.5"/>
+            <Animation Type="UTIL" Effect="Wait" Duration="2"/>
+            <Animation Type="CHAR" Name="Loli" Effect="Emotion" Parameter="Surprise" Duration="0.4"/>
+            <Animation Type="CHAR" Name="Loli" Effect="Bounce" Parameter="1" Duration="0.2"/>
+            <Animation Type="UTIL" Effect="Wait" Duration="1"/>
+            <Animation Type="CHAR" Name="Loli" Effect="Move" Parameter="R1" Duration="1"/>
+            <Animation Type="CHAR" Name="Loli" Effect="Scale" Parameter="L" Duration="1"/>
+            <Animation Type="DIAL" Effect="On"/>
+        </Animations>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>아, 학교를 둘러보는 중이였어.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli"/>
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>???</Name>
+            <Text>학교?</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" Face="Default"/>
+        </Characters>
+        <Animations>
+            <Animation Type="CHAR" Name="Loli" Effect="Emotion" Parameter="Question" Duration="1"/>
+        </Animations>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>응, 학교.{Anim:WAIT:1} 온지 별로 안되서, 뭐가 있나 잘 몰라가지고.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli"/>
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>???</Name>
+            <Text>아, 이번에 왔다던 신입생이구나!</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli"/>
+        </Characters>
+        <Animations>
+            <Animation Type="CHAR" Name="Loli" Effect="Emotion" Parameter="Funny" Duration="1"/>
+            <Animation Type="CHAR" Name="Loli" Effect="Bounce" Parameter="1" Duration="0.2"/>
+        </Animations>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>???</Name>
+            <Text>나도 도와줄게.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" Face="Default"/>
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>???</Name>
+            <Text>일단 여기는 인공지능 융합실이야.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+        <Animations>
+            <Animation Type="CHAR" Name="Loli" Effect="Move" Parameter="R3" Duration="1"/>
+        </Animations>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>???</Name>
+            <Text>대부분의 학생들이 이용할 수 있으며,</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>???</Name>
+            <Text>무려 소파까지 있지!</Text>
+        </Text>
+        <Popup Name="Sofa">
+            <Scale X="800px"/>
+            <Pos X="-200" Y="140" />
+        </Popup>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+        <Animations>
+            <Animation Type="CHAR" Name="Loli" Effect="Bounce" Parameter="2" Duration="0.2"/>
+        </Animations>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>오...</Text>
+        </Text>
+        <Option Script="굉장해" />
+        <Option Script="엄청나" />
+        <Characters>
+            <Character Name="Loli" Face="Default" Dark="false"/>
+        </Characters>
+    </Dialog>
+</XMLDialogs>

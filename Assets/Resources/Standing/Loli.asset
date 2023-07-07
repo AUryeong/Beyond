@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7416b635b864bca985f2fb35217a2a8, type: 3}
+  m_Name: Loli
+  m_EditorClassIdentifier: 
+  standings:
+  - name: Default
+    baseStanding: {fileID: 21300000, guid: 5e7ce066b789ca24a9d617bbc8729ae5, type: 3}
+    logFace: {fileID: 21300000, guid: b66e8b1964204f744a33e46a9cf1e75c, type: 3}
+    face:
+    - {fileID: 21300000, guid: e0d546a6f74720a44941f7b03db5febc, type: 3}
+    - {fileID: 21300000, guid: 4a19600397716d944bb37c678c73d695, type: 3}

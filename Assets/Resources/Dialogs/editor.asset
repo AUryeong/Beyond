@@ -1,0 +1,523 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea4cc8aacb5484389845b651f03202d, type: 3}
+  m_Name: editor
+  m_EditorClassIdentifier: 
+  cgTitle: 
+  skipText: 
+  dialogs:
+  - bgm: School
+    dialogBackground:
+      name: AIRoom
+      effect: 2
+      title: "\uD559\uAD50"
+      description: "\uC778\uACF5\uC9C0\uB2A5 \uC735\uD569\uC2E4"
+      effectDuration: 2
+      scale: 1
+    dialogText:
+      name: "\uD559\uC0DD"
+      text: "\uACE0\uBBFC\uC774\uB124..."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: Default
+      pos: 4
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: School
+    dialogBackground:
+      name: AIRoom
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: ???
+      text: "\uBB50\uD558\uACE0 \uC788\uC5B4?"
+      tipEvent: []
+      dialogAnimations: []
+      active: 0
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: Default
+      pos: 4
+      size: 2
+      dark: 0
+    animationLists:
+    - index: 0
+      animations:
+      - type: 0
+        effect: Move
+        name: Loli
+        parameter: R2
+        duration: 2
+      - type: 0
+        effect: Bounce
+        name: Loli
+        parameter: 2
+        duration: 0.5
+      - type: 1
+        effect: Wait
+        name: 
+        parameter: 
+        duration: 2
+      - type: 0
+        effect: Emotion
+        name: Loli
+        parameter: Surprise
+        duration: 0.4
+      - type: 0
+        effect: Bounce
+        name: Loli
+        parameter: 1
+        duration: 0.2
+      - type: 1
+        effect: Wait
+        name: 
+        parameter: 
+        duration: 1
+      - type: 0
+        effect: Move
+        name: Loli
+        parameter: R1
+        duration: 1
+      - type: 0
+        effect: Scale
+        name: Loli
+        parameter: L
+        duration: 1
+      - type: 2
+        effect: On
+        name: 
+        parameter: 
+        duration: -1
+  - bgm: School
+    dialogBackground:
+      name: AIRoom
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: "\uD559\uC0DD"
+      text: "\uC544, \uD559\uAD50\uB97C \uB458\uB7EC\uBCF4\uB294 \uC911\uC774\uC600\uC5B4."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: Default
+      pos: 3
+      size: 3
+      dark: 1
+    animationLists: []
+  - bgm: School
+    dialogBackground:
+      name: AIRoom
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: ???
+      text: "\uD559\uAD50?"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: Default
+      pos: 3
+      size: 3
+      dark: 1
+    animationLists:
+    - index: 0
+      animations:
+      - type: 0
+        effect: Emotion
+        name: Loli
+        parameter: Question
+        duration: 1
+  - bgm: School
+    dialogBackground:
+      name: AIRoom
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: "\uD559\uC0DD"
+      text: "\uC751, \uD559\uAD50. \uC628\uC9C0 \uBCC4\uB85C \uC548\uB418\uC11C,
+        \uBB50\uAC00 \uC788\uB098 \uC798 \uBAB0\uB77C\uAC00\uC9C0\uACE0."
+      tipEvent: []
+      dialogAnimations:
+      - startIndex: 6
+        type: 0
+        parameter: 1
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: Default
+      pos: 3
+      size: 3
+      dark: 1
+    animationLists: []
+  - bgm: School
+    dialogBackground:
+      name: AIRoom
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: ???
+      text: "\uC544, \uC774\uBC88\uC5D0 \uC654\uB2E4\uB358 \uC2E0\uC785\uC0DD\uC774\uAD6C\uB098!"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: Default
+      pos: 3
+      size: 3
+      dark: 1
+    animationLists:
+    - index: 0
+      animations:
+      - type: 0
+        effect: Emotion
+        name: Loli
+        parameter: Funny
+        duration: 1
+      - type: 0
+        effect: Bounce
+        name: Loli
+        parameter: 1
+        duration: 0.2
+  - bgm: School
+    dialogBackground:
+      name: AIRoom
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: ???
+      text: "\uB098\uB3C4 \uB3C4\uC640\uC904\uAC8C."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: Default
+      pos: 3
+      size: 3
+      dark: 1
+    animationLists: []
+  - bgm: School
+    dialogBackground:
+      name: AIRoom
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: ???
+      text: "\uC77C\uB2E8 \uC5EC\uAE30\uB294 \uC778\uACF5\uC9C0\uB2A5 \uC735\uD569\uC2E4\uC774\uC57C."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: Default
+      pos: 3
+      size: 3
+      dark: 1
+    animationLists:
+    - index: 0
+      animations:
+      - type: 0
+        effect: Move
+        name: Loli
+        parameter: R3
+        duration: 1
+  - bgm: School
+    dialogBackground:
+      name: AIRoom
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: ???
+      text: "\uB300\uBD80\uBD84\uC758 \uD559\uC0DD\uB4E4\uC774 \uC774\uC6A9\uD560
+        \uC218 \uC788\uC73C\uBA70,"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: Default
+      pos: 1
+      size: 3
+      dark: 1
+    animationLists: []
+  - bgm: School
+    dialogBackground:
+      name: AIRoom
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: ???
+      text: "\uBB34\uB824 \uC18C\uD30C\uAE4C\uC9C0 \uC788\uC9C0!"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: Sofa
+      pos:
+        x: -200
+        y: 140
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 800px
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: Default
+      pos: 1
+      size: 3
+      dark: 1
+    animationLists:
+    - index: 0
+      animations:
+      - type: 0
+        effect: Bounce
+        name: Loli
+        parameter: 2
+        duration: 0.2
+  - bgm: School
+    dialogBackground:
+      name: AIRoom
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: "\uD559\uC0DD"
+      text: "\uC624..."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList:
+    - script: "\uAD49\uC7A5\uD574"
+      skipText: 
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
+    - script: "\uC5C4\uCCAD\uB098"
+      skipText: 
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: Default
+      pos: 1
+      size: 3
+      dark: 0
+    animationLists: []

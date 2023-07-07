@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Title Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings:
+    - serializedVersion: 3
+      m_BuildTarget: Android
+      m_MaxTextureSize: 2048
+      m_ResizeAlgorithm: 0
+      m_TextureFormat: 48
+      m_TextureCompression: 1
+      m_CompressionQuality: 50
+      m_CrunchedCompression: 0
+      m_AllowsAlphaSplitting: 0
+      m_Overridden: 1
+      m_AndroidETC2FallbackOverride: 0
+      m_ForceMaximumCompressionQuality_BC6H_BC7: 0
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 7ca31e6c5d25b6c48a65b109f30108e9, type: 3}
+    - {fileID: 2800000, guid: 31efdc51a51b765428232f5785e29f9f, type: 3}
+    - {fileID: 2800000, guid: 0377f3f5e8eda624ca53afa6d98162c6, type: 3}
+    - {fileID: 2800000, guid: 3cdba4963132d89429585f5c54cc650d, type: 3}
+    - {fileID: 2800000, guid: 4070c0ca71523224392356f254b23fa7, type: 3}
+    - {fileID: 2800000, guid: 1b29c6ef54dfe314b9a4edd2912df8d9, type: 3}
+    - {fileID: 2800000, guid: e67cd2a5dff25634ebe679aa24d55d99, type: 3}
+    - {fileID: 2800000, guid: 46980973bb13d0a429db482f460020e9, type: 3}
+    - {fileID: 2800000, guid: dbc300117627a0e4e98b3da3d434417e, type: 3}
+    - {fileID: 2800000, guid: a27f2d31684348e4288079e1b6b6bfc3, type: 3}
+    - {fileID: 2800000, guid: 172a6e0a9d5504a47a071d655f433523, type: 3}
+    - {fileID: 2800000, guid: 94adc5917878e854288bba983184d8b3, type: 3}
+    - {fileID: 2800000, guid: 573230838dfcfb34f98a8ca770f34cff, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: dbc300117627a0e4e98b3da3d434417e, type: 3}
+  - {fileID: 21300000, guid: a27f2d31684348e4288079e1b6b6bfc3, type: 3}
+  - {fileID: 21300000, guid: 31efdc51a51b765428232f5785e29f9f, type: 3}
+  - {fileID: 21300000, guid: 94adc5917878e854288bba983184d8b3, type: 3}
+  - {fileID: 21300000, guid: 46980973bb13d0a429db482f460020e9, type: 3}
+  - {fileID: 21300000, guid: 573230838dfcfb34f98a8ca770f34cff, type: 3}
+  - {fileID: 21300000, guid: e67cd2a5dff25634ebe679aa24d55d99, type: 3}
+  - {fileID: 21300000, guid: 0377f3f5e8eda624ca53afa6d98162c6, type: 3}
+  - {fileID: 21300000, guid: 3cdba4963132d89429585f5c54cc650d, type: 3}
+  - {fileID: 21300000, guid: 172a6e0a9d5504a47a071d655f433523, type: 3}
+  - {fileID: 21300000, guid: 4070c0ca71523224392356f254b23fa7, type: 3}
+  - {fileID: 21300000, guid: 7ca31e6c5d25b6c48a65b109f30108e9, type: 3}
+  - {fileID: 21300000, guid: 1b29c6ef54dfe314b9a4edd2912df8d9, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Explorer Icon
+  - Log Icon
+  - Explorer
+  - Start Icon
+  - Exit Icon
+  - Save Icon
+  - Load Icon
+  - Extras
+  - Game Start
+  - Setting Icon
+  - Load
+  - Exit
+  - Setting
+  m_RenderDataMap: {}
+  m_Tag: Title Atlas
+  m_IsVariant: 0

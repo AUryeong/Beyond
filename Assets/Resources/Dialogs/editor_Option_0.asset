@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea4cc8aacb5484389845b651f03202d, type: 3}
+  m_Name: editor_Option_0
+  m_EditorClassIdentifier: 
+  cgTitle: 
+  skipText: 
+  dialogs:
+  - bgm: School
+    dialogBackground:
+      name: Class_Morning
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: "\uC5D0\uC774"
+      text: "\uC544 \u314B\u314B \uC774\uAC74 \uC54C\uC544\uC57C\uC9C0"
+      tipEvent: []
+      dialogAnimations: []
+      active: 0
+      invisible: 0
+      owner: A
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: A
+      clothes: Default
+      face: Smile
+      pos: 5
+      size: 2
+      dark: 0
+    - name: Loli
+      clothes: Default
+      face: DefaultLight
+      pos: 7
+      size: 2
+      dark: 0
+    animationLists:
+    - index: 0
+      animations:
+      - type: 0
+        effect: Shake
+        name: Loli
+        parameter: -1
+        duration: 0.2
+      - type: 0
+        effect: Emotion
+        name: Loli
+        parameter: Thinking
+        duration: 0.5
+      - type: 1
+        effect: Wait
+        name: 
+        parameter: 
+        duration: 1
+      - type: 0
+        effect: Bounce
+        name: A
+        parameter: 1
+        duration: 0.2
+      - type: 0
+        effect: Face
+        name: A
+        parameter: SmileFlush
+        duration: -1
+      - type: 1
+        effect: Wait
+        name: 
+        parameter: 
+        duration: 0.5
+      - type: 2
+        effect: On
+        name: 
+        parameter: 
+        duration: -1
+      - type: 0
+        effect: Move
+        name: A
+        parameter: L1
+        duration: 0.8
+      - type: 0
+        effect: Bounce
+        name: A
+        parameter: 3
+        duration: 0.2
+  - bgm: School
+    dialogBackground:
+      name: Class_Morning
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: '{0}'
+      text: "\uC774\uAC74 \uBAA8\uB97C \uC218\uAC00 \uC5C6\uAE34\uD574"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Loli
+      clothes: Default
+      face: DefaultLight
+      pos: 7
+      size: 2
+      dark: 1
+    - name: A
+      clothes: Default
+      face: SmileFlush
+      pos: 6
+      size: 2
+      dark: 1
+    animationLists: []
+  - bgm: School
+    dialogBackground:
+      name: Class_Morning
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale: 1
+    dialogText:
+      name: "\uC774\uB85C\uB9AC"
+      text: "\uD788\uD788 \uC54C\uC544\uC11C \uB2E4\uD589\uC774\uB2E4"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: Loli
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: A
+      clothes: Default
+      face: SmileFlush
+      pos: 6
+      size: 2
+      dark: 1
+    - name: Loli
+      clothes: Default
+      face: DefaultLight
+      pos: 8
+      size: 2
+      dark: 0
+    animationLists: []
