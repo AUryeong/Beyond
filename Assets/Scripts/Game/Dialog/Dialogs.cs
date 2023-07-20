@@ -2,6 +2,7 @@
 using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.Serialization;
+using UnityEngine.UIElements;
 
 public class Dialogs : ScriptableObject
 {
@@ -176,6 +177,12 @@ public class SerializedHtmlScale
     [XmlAttribute("Y")]
     public string y;
 
+    public Vector2 GetScale(Sprite sprite)
+    {
+        float x = sprite.rect.width / sprite.pixelsPerUnit;
+        float y = sprite.rect.height / sprite.pixelsPerUnit;
+        return GetScale(x, y);
+    }
     public Vector2 GetScale(float defaultWidth, float defaultHeight)
     {
         bool isXNotSet = string.IsNullOrEmpty(x);
@@ -258,7 +265,7 @@ public class DialogBackground
     public float effectDuration = 1;
 
     [XmlAttribute("Scale")] 
-    public float scale = 1;
+    public SerializedHtmlScale scale;
 }
 
 [System.Serializable]

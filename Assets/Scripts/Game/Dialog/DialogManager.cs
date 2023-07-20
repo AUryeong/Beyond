@@ -336,9 +336,7 @@ public class DialogManager : Manager
         var background = GameManager.Instance.resourcesManager.GetBackground(nowDialog.dialogBackground.name);
         if (prevDialog != null)
         {
-            if (prevDialog.dialogBackground.name != nowDialog.dialogBackground.name ||
-                Math.Abs(prevDialog.dialogBackground.scale - nowDialog.dialogBackground.scale) > 0.01f ||
-                prevDialog.dialogBackground.title != nowDialog.dialogBackground.title)
+            if (prevDialog.dialogBackground.name != nowDialog.dialogBackground.name || prevDialog.dialogBackground.title != nowDialog.dialogBackground.title)
             {
                 if (!string.IsNullOrEmpty(nowDialog.dialogBackground.name))
                 {
@@ -348,24 +346,30 @@ public class DialogManager : Manager
                         default:
                         case DialogBackgroundEffect.NONE:
                             backgroundImage.sprite = background;
-                            backgroundImage.rectTransform.localScale = Vector3.one * nowDialog.dialogBackground.scale;
+
+                            backgroundImage.rectTransform.sizeDelta = nowDialog.dialogBackground.scale.GetScale(background);
+                            backgroundImage.SetAllDirty();
+
                             subBackgroundImage.gameObject.SetActive(false);
                             break;
                         case DialogBackgroundEffect.TRANS:
                             subBackgroundImage.gameObject.SetActive(true);
                             subBackgroundImage.sprite = background;
-                            backgroundImage.rectTransform.localScale = Vector3.one * prevDialog.dialogBackground.scale;
-                            subBackgroundImage.rectTransform.localScale = Vector3.one * nowDialog.dialogBackground.scale;
+
+                            subBackgroundImage.rectTransform.sizeDelta = nowDialog.dialogBackground.scale.GetScale(background);
+                            subBackgroundImage.SetAllDirty();
+
                             subBackgroundEffect.effectFactor = 0;
                             break;
                         case DialogBackgroundEffect.FADE:
                             subBackgroundEffect.effectFactor = 1;
 
-                            backgroundImage.rectTransform.localScale = Vector3.one * prevDialog.dialogBackground.scale;
-
                             subBackgroundImage.gameObject.SetActive(true);
                             subBackgroundImage.sprite = background;
-                            subBackgroundImage.rectTransform.localScale = Vector3.one * nowDialog.dialogBackground.scale;
+
+                            subBackgroundImage.rectTransform.sizeDelta = nowDialog.dialogBackground.scale.GetScale(background);
+                            subBackgroundImage.SetAllDirty();
+
                             subBackgroundImage.color = Utility.GetFadeColor(Color.white, 0);
 
                             subBackgroundImage.DOFade(1, nowDialog.dialogBackground.effectDuration).OnComplete(() =>
@@ -383,7 +387,8 @@ public class DialogManager : Manager
         {
             subBackgroundImage.DOKill(true);
             backgroundImage.sprite = background;
-            backgroundImage.rectTransform.localScale = Vector3.one * nowDialog.dialogBackground.scale;
+            backgroundImage.rectTransform.sizeDelta = nowDialog.dialogBackground.scale.GetScale(background);
+            backgroundImage.SetAllDirty();
             subBackgroundImage.gameObject.SetActive(false);
         }
 
@@ -424,10 +429,7 @@ public class DialogManager : Manager
 
                 popupImage.sprite = popupSprite;
                 
-                float x = popupSprite.rect.width / popupImage.pixelsPerUnit;
-                float y = popupSprite.rect.height / popupImage.pixelsPerUnit;
-                
-                popupImage.rectTransform.sizeDelta = nowDialog.dialogPopup.scale.GetScale(x, y);
+                popupImage.rectTransform.sizeDelta = nowDialog.dialogPopup.scale.GetScale(popupSprite);
                 popupImage.SetAllDirty();
 
                 if (prevDialog.dialogPopup == null || string.IsNullOrEmpty(prevDialog.dialogPopup.name))
