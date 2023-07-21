@@ -65,6 +65,7 @@ public class DialogManager : Manager
     private readonly List<UIOption> uiOptions = new List<UIOption>();
     private bool isHasOption;
     private bool optionActive;
+
     public override void OnCreated()
     {
         subBackgroundEffect = subBackgroundImage.GetComponent<UITransitionEffect>();
@@ -84,9 +85,9 @@ public class DialogManager : Manager
         };
         entry.callback.AddListener(PointerClick);
         dialogEventTrigger.triggers.Add(entry);
-        
+
         dialogWindow.gameObject.SetActive(false);
-        
+
         AnimationInit();
     }
 
@@ -102,7 +103,7 @@ public class DialogManager : Manager
         autoDuration = 0;
 
         dialogWindow.gameObject.SetActive(false);
-        
+
         popupImage.gameObject.SetActive(false);
 
         blackFadeIn.gameObject.SetActive(false);
@@ -154,8 +155,8 @@ public class DialogManager : Manager
             descriptionText.maxVisibleCharacters = descriptionText.textInfo.characterCount;
             if (nowDialog.dialogText.dialogAnimations.Count <= 0) return;
 
-            var dialogTextAnimations = nowDialog.dialogText.dialogAnimations.FindAll((dialogTextAnimation => dialogTextAnimation.startIndex >nowIndex));
-            
+            var dialogTextAnimations = nowDialog.dialogText.dialogAnimations.FindAll((dialogTextAnimation => dialogTextAnimation.startIndex > nowIndex));
+
             foreach (var dialogTextAnimation in dialogTextAnimations)
             {
                 if (dialogTextAnimation.type == DialogTextAnimationType.ANIM)
@@ -387,7 +388,8 @@ public class DialogManager : Manager
         {
             subBackgroundImage.DOKill(true);
             backgroundImage.sprite = background;
-            backgroundImage.rectTransform.sizeDelta = nowDialog.dialogBackground.scale.GetScale(background);
+            if (nowDialog.dialogBackground.scale != null)
+                backgroundImage.rectTransform.sizeDelta = nowDialog.dialogBackground.scale.GetScale(background);
             backgroundImage.SetAllDirty();
             subBackgroundImage.gameObject.SetActive(false);
         }
@@ -420,7 +422,7 @@ public class DialogManager : Manager
             {
                 popupImage.DOKill();
                 popupImage.gameObject.SetActive(true);
-            
+
                 Vector2 pivot = nowDialog.dialogPopup.pivot.GetVector2();
                 popupImage.rectTransform.anchorMin = pivot;
                 popupImage.rectTransform.anchorMax = pivot;
@@ -428,7 +430,7 @@ public class DialogManager : Manager
                 popupImage.rectTransform.anchoredPosition = nowDialog.dialogPopup.pos.GetVector2();
 
                 popupImage.sprite = popupSprite;
-                
+
                 popupImage.rectTransform.sizeDelta = nowDialog.dialogPopup.scale.GetScale(popupSprite);
                 popupImage.SetAllDirty();
 
@@ -584,8 +586,6 @@ public class DialogManager : Manager
     {
         var dialogs = GameManager.Instance.resourcesManager.GetDialog(dialogName);
 
-        if (!string.IsNullOrEmpty(dialogs.cgTitle))
-
         AddDialog(dialogs);
     }
 
@@ -657,7 +657,6 @@ public class DialogManager : Manager
 
     private void AnimationInit()
     {
-        charAnimationPairs.Add("Move", (findStanding, anim) => findStanding.Move(Utility.PosToVector2(anim.parameter), anim.duration));
         charAnimationPairs.Add("Face", (findStanding, anim) => findStanding.FaceChange(anim.parameter));
         charAnimationPairs.Add("Bounce", (findStanding, anim) => findStanding.Bounce(int.Parse(anim.parameter), anim.duration));
         charAnimationPairs.Add("Shake", (findStanding, anim) => findStanding.Shake(float.Parse(anim.parameter), anim.duration));

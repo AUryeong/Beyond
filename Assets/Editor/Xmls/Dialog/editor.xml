@@ -2,10 +2,350 @@
 <XMLDialogs xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
     <Dialog>
         <Bgm>School</Bgm>
-        <BG Name="1" Title="학교" Description="인공지능 융합실" Effect="FADE" Duration="2"/>
+        <BG Name="Black">
+            <Scale X="1170" Y="2532"/>
+        </BG>
         <Text>
             <Name>학생</Name>
-            <Text>고민이네...</Text>
+            <Text>헥... 헥...</Text>
         </Text>
+    </Dialog>
+    <Dialog>
+        <Bgm>School</Bgm>
+        <BG Name="1">
+                <Scale X="" Y="2532"/>
+        </BG>
+        <Text>
+            <Name>학생</Name>
+            <Text>여기 학교는 왜이리 오기가 힘들어...</Text>
+        </Text>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>뭐 처음이라 힘든거지, 익숙해지면 괜찮아지겠지.</Text>
+        </Text>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>여기가 내가 3년 동안 다닐 학교인가...</Text>
+        </Text>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>???</Name>
+            <Text>...</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" Clothes="Black" Face="Default" Size="M" Dark="false"/>
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>어, 나처럼 신입생인가?</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>인사라도 해볼까?</Text>
+        </Text>
+        <Option Script="안녕! 너도 신입생이야?" DialogType="BEFORE">
+            <Dialogs>
+                <Dialog>
+                    <Text>
+                        <Name>학생</Name>
+                        <Text>안녕! 너도 신입생이야?</Text>
+                    </Text>
+                    <Characters>
+                        <Character Name="Loli" />
+                    </Characters>
+                </Dialog>
+            </Dialogs>
+        </Option>
+        <Option Script="반가워! 엄청 일찍 왔네?" DialogType="BEFORE">
+            <Dialogs>
+                <Dialog>
+                    <Text>
+                        <Name>학생</Name>
+                        <Text>반가워! 엄청 일찍 왔네?</Text>
+                    </Text>
+                    <Characters>
+                        <Character Name="Loli" />
+                    </Characters>
+                </Dialog>
+            </Dialogs>
+        </Option>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>???</Name>
+            <Text>...</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" Clothes="Default" Face="DefaultLight"/>
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>???</Name>
+            <Text>어... {Anim:WAIT:0.5}그... {Anim:WAIT:0.5}새로 왔다던 신입생.. 맞지?</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>아 네... 그... 런데요?</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>점화</Name>
+            <Text>그... 난 점화라고 하고, 2학년이야.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" Face="Default"/>
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>어? 서... 선배님이셨군요! 죄송합니다!</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+        <Option Script="90도로 머리를 숙인다." />
+        <Option Script="납작 엎드려 빈다" />
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>점화</Name>
+            <Text>아냐 아냐, 그리 미안해하지 않아도 돼, 원래도 가끔 오해받았거든.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" Face="DefaultLight"/>
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>아하하... 죄송합니다</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <BG Name="3" Effect="FADE" Duration="1">
+            <Scale X="" Y="2532"/>
+        </BG>
+        <Text>
+            <Name>점화</Name>
+            <Text>학교 오기 힘들지? 처음일텐데 힘들었겠네.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>네, 완전 처음이라 길 찾기도 어디가 뭔지 알기도 힘들더라고요.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>점화</Name>
+            <Text>학교에 뭐가 어디 있는지는 알아?</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>아뇨, 그래서 저희 반 찾는데 오래 걸릴거 같아서, 일찍 왔어요.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>점화</Name>
+            <Text>음... 그러면 간단하게 학교에 대해 알려줄까? {Anim:WAIT:0.5}시간도 많으니까.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>아! 네! 그래주시면 감사하겠습니다!</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>점화</Name>
+            <Text>일단 B1층 부터 가볼까, 엘리베이터 타고 가자.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>네!</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <BG Name="2" Effect="FADE" Duration="1">
+            <Scale X="" Y="2532"/>
+        </BG>
+        <Text>
+            <Name>학생</Name>
+            <Text>...</Text>
+        </Text>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>이쁘네...</Text>
+        </Text>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>점화</Name>
+            <Text>자, 내리자.</Text>
+        </Text>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>아 네!</Text>
+        </Text>
+    </Dialog>
+    <Dialog>
+        <BG Name="5" Effect="FADE" Duration="1">
+            <Scale X="" Y="2532"/>
+        </BG>
+        <Text>
+            <Name>점화</Name>
+            <Text>자, 여기는 맥실이야.</Text>
+        </Text>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>이름 그대로 맥이 되게 많네요...</Text>
+        </Text>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>점화</Name>
+            <Text>자리마다 액정 타블렛도 있어서, 그래픽이 작업하기 딱인 곳이지.</Text>
+        </Text>
+    </Dialog>
+    <Dialog>
+        <BG Name="4" Effect="FADE" Duration="1">
+            <Scale X="" Y="2532"/>
+        </BG>
+        <Text>
+            <Name>점화</Name>
+            <Text>난 보통 여기서 작업해.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" Clothes="Default" Face="DefaultLight" Size="M" Dark="false"/>
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>아 선배님은 그림 그리시는군요!</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>점화</Name>
+            <Text>응, 너는 프로그래밍 지망이니?</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>아뇨 아직 못정했어요</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>점화</Name>
+            <Text>그렇구나, 만약 그림 배우고 싶으면 나한테 찾아와, 도와줄게.</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>아! 감사합니다!</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>점화</Name>
+            <Text>그럼, 다음 장소로 가볼까?</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
+    </Dialog>
+    <Dialog>
+        <Text>
+            <Name>학생</Name>
+            <Text>네!</Text>
+        </Text>
+        <Characters>
+            <Character Name="Loli" />
+        </Characters>
     </Dialog>
 </XMLDialogs>

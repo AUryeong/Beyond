@@ -100,13 +100,13 @@ public static class Utility
         switch (size)
         {
             default:
-                return new Vector3(0.6f, 0.6f, 0.6f);
-            case "M":
-                return new Vector3(0.7f, 0.7f, 0.7f);
-            case "L":
                 return new Vector3(0.8f, 0.8f, 0.8f);
-            case "XL":
+            case "M":
                 return new Vector3(1f, 1f, 1f);
+            case "L":
+                return new Vector3(1.2f, 1.2f, 1.2f);
+            case "XL":
+                return new Vector3(1.4f, 1.4f, 1.4f);
         }
     }
 
@@ -116,13 +116,13 @@ public static class Utility
         {
             default:
             case DialogCharacterSize.S:
-                return new Vector3(0.6f, 0.6f, 0.6f);
-            case DialogCharacterSize.M:
-                return new Vector3(0.7f, 0.7f, 0.7f);
-            case DialogCharacterSize.L:
                 return new Vector3(0.8f, 0.8f, 0.8f);
-            case DialogCharacterSize.XL:
+            case DialogCharacterSize.M:
                 return new Vector3(1f, 1f, 1f);
+            case DialogCharacterSize.L:
+                return new Vector3(1.2f, 1.2f, 1.2f);
+            case DialogCharacterSize.XL:
+                return new Vector3(1.4f, 1.4f, 1.4f);
         }
     }
 

@@ -2,13 +2,9 @@
 using System.Xml.Serialization;
 using UnityEngine;
 using UnityEngine.Serialization;
-using UnityEngine.UIElements;
 
 public class Dialogs : ScriptableObject
 {
-    public string cgTitle;
-    
-    [TextArea] public string skipText;
     public List<Dialog> dialogs = new List<Dialog>();
 }
 
@@ -70,9 +66,6 @@ public class DialogOption
     [XmlAttribute("Script")] 
     public string script;
 
-    [XmlElement("SkipText")] 
-    public string skipText;
-    
     [XmlAttribute("Dialog")] 
     public string dialog;
 
@@ -172,10 +165,19 @@ public class SerializedVector2
 public class SerializedHtmlScale
 {
     [XmlAttribute("X")]
-    public string x;
+    public string x ="";
     
     [XmlAttribute("Y")]
-    public string y;
+    public string y ="";
+
+    public SerializedHtmlScale Copy()
+    {
+        return new SerializedHtmlScale()
+        {
+            x = x,
+            y = y
+        };
+    }
 
     public Vector2 GetScale(Sprite sprite)
     {
@@ -219,9 +221,9 @@ public class SerializedHtmlScale
             }
             else
             {
-                height = float.Parse(x.Replace("px", ""));
+                height = float.Parse(y.Replace("px", ""));
                 if (isXNotSet)
-                    width = width / defaultHeight * defaultHeight;
+                    width = height / defaultHeight * defaultWidth;
             }
         }
 
@@ -264,7 +266,7 @@ public class DialogBackground
     [XmlAttribute("Duration")] 
     public float effectDuration = 1;
 
-    [XmlAttribute("Scale")] 
+    [XmlElement("Scale")] 
     public SerializedHtmlScale scale;
 }
 
@@ -298,9 +300,6 @@ public class DialogCharacter
 
     [XmlAttribute("Face")] 
     public string face;
-
-    [XmlAttribute("Pos")] 
-    public DialogCharacterPos pos = DialogCharacterPos.N;
 
     [XmlAttribute("Size")] 
     public DialogCharacterSize size = DialogCharacterSize.N;

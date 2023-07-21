@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0ea4cc8aacb5484389845b651f03202d, type: 3}
-  m_Name: editor_Option_0
+  m_Name: editor_Option_1
   m_EditorClassIdentifier: 
   dialogs:
   - bgm: 
@@ -25,7 +25,7 @@ MonoBehaviour:
         y: 
     dialogText:
       name: "\uD559\uC0DD"
-      text: "\uC548\uB155! \uB108\uB3C4 \uC2E0\uC785\uC0DD\uC774\uC57C?"
+      text: "\uBC18\uAC00\uC6CC! \uC5C4\uCCAD \uC77C\uCC0D \uC654\uB124?"
       tipEvent: []
       dialogAnimations: []
       active: 1

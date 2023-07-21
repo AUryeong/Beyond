@@ -69,15 +69,26 @@ namespace UI
 
             var prevStanding = NowStanding;
             NowStanding = dialogStanding;
+            Debug.Log(dialogStanding.face);
 
             var toColor = NowStanding.dark ? Utility.darkColor : Color.white;
             var toScale = Utility.SizeToScale(NowStanding.size);
-            var toPos = Utility.PosToVector2(NowStanding.pos);
 
             bool isStandingEqual = prevStanding != null && prevStanding.name.Equals(NowStanding.name);
             if (isStandingEqual)
             {
                 rectTransform.DOKill(true);
+
+                if (!prevStanding.clothes.Equals(NowStanding.clothes))
+                {
+                    ClothesChange(NowStanding.clothes, true);
+                    FaceChange(NowStanding.face, true);
+                }
+                else
+                {
+                    baseStanding.DOKill();
+                    baseStanding.DOColor(toColor, 0.5f);
+                }
 
                 if (!prevStanding.face.Equals(NowStanding.face))
                 {
@@ -89,27 +100,15 @@ namespace UI
                     face.DOColor(toColor, 0.5f);
                 }
 
-                if (!prevStanding.clothes.Equals(NowStanding.clothes))
-                {
-                    ClothesChange(NowStanding.clothes, true);
-                }
-                else
-                {
-                    baseStanding.DOKill();
-                    baseStanding.DOColor(toColor, 0.5f);
-                }
-
                 if (!prevStanding.size.Equals(NowStanding.size))
                     Scale(toScale, 1, true);
 
-                if (!prevStanding.pos.Equals(NowStanding.pos))
-                    Move(toPos, 1);
                 return;
             }
 
             rectTransform.DOKill(true);
             rectTransform.localScale = toScale;
-            rectTransform.anchoredPosition = new Vector2(toPos, rectTransform.anchoredPosition.y);
+            rectTransform.anchoredPosition = new Vector2(0, rectTransform.anchoredPosition.y);
 
             baseStanding.DOKill();
             baseStanding.sprite = standing.baseStanding;
@@ -167,7 +166,7 @@ namespace UI
             var duration = 0.4f;
             var toColor = NowStanding.dark ? Utility.darkColor : Color.white;
 
-            NowStanding.face = clothesName;
+            NowStanding.clothes = clothesName;
 
             sideStanding.DOKill();
             sideStanding.sprite = baseStanding.sprite;
@@ -182,11 +181,6 @@ namespace UI
 
             if (!isSet && !NowStanding.dark)
                 rectTransform.SetAsLastSibling();
-        }
-
-        public void Move(float posX, float duration)
-        {
-            rectTransform.DOAnchorPosX(posX, duration);
         }
 
         public void Scale(Vector3 scale, float duration, bool isSet = false)

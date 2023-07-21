@@ -94,7 +94,7 @@ public class EditorUtility
     private static void ParsingDialogs(string assetName, ref List<Dialog> dialogList, Dictionary<string, string> ownerDictionaries)
     {
         string background = string.Empty;
-        float backgroundScale = 1;
+        SerializedHtmlScale backgroundScale = new SerializedHtmlScale();
         string bgm = string.Empty;
 
         var characterDictionary = new Dictionary<string, string>();
@@ -106,7 +106,7 @@ public class EditorUtility
             if (string.IsNullOrEmpty(dialog.dialogBackground.name))
             {
                 dialog.dialogBackground.name = background;
-                dialog.dialogBackground.scale = backgroundScale;
+                dialog.dialogBackground.scale = backgroundScale.Copy();
             }
             else
             {
@@ -241,19 +241,6 @@ public class EditorUtility
 
                 character.face = face;
 
-                DialogCharacterPos pos = character.pos;
-                if (pos == DialogCharacterPos.N)
-                {
-                    if (!posDictionary.ContainsKey(character.name))
-                    {
-                        posDictionary.Add(character.name, DialogCharacterPos.C);
-                    }
-
-                    pos = posDictionary[character.name];
-                }
-
-                character.pos = pos;
-
                 DialogCharacterSize size = character.size;
                 if (size == DialogCharacterSize.N)
                 {
@@ -286,9 +273,6 @@ public class EditorUtility
                                 case "Scale":
                                     size = Utility.GetEnum<DialogCharacterSize>(anim.parameter);
                                     break;
-                                case "Move":
-                                    pos = Utility.GetEnum<DialogCharacterPos>(anim.parameter);
-                                    break;
                             }
                         }
                     }
@@ -314,9 +298,6 @@ public class EditorUtility
                                         case "Scale":
                                             size = Utility.GetEnum<DialogCharacterSize>(anim.parameter);
                                             break;
-                                        case "Move":
-                                            pos = Utility.GetEnum<DialogCharacterPos>(anim.parameter);
-                                            break;
                                     }
                                 }
                             }
@@ -325,8 +306,6 @@ public class EditorUtility
                 }
 
                 faceDictionary[character.name] = face;
-
-                posDictionary[character.name] = pos;
 
                 sizeDictionary[character.name] = size;
             }

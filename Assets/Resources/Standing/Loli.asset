@@ -19,3 +19,8 @@ MonoBehaviour:
     face:
     - {fileID: 21300000, guid: e0d546a6f74720a44941f7b03db5febc, type: 3}
     - {fileID: 21300000, guid: 4a19600397716d944bb37c678c73d695, type: 3}
+  - name: Black
+    baseStanding: {fileID: 21300000, guid: d3d58894df798724d8c2952a865d0774, type: 3}
+    logFace: {fileID: 21300000, guid: b66e8b1964204f744a33e46a9cf1e75c, type: 3}
+    face:
+    - {fileID: 21300000, guid: 5501cf2eee3b659419b944d3f065d148, type: 3}
