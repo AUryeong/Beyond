@@ -2,5 +2,7 @@
 <XMLDialogOwners xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<Owner Name="에이" OwnerName="A" />
 	<Owner Name="이로리" OwnerName="Loli" />
+	<Owner Name="공유리" OwnerName="Hiroine" />
+	<Owner Name="???" OwnerName="Hiroine" />
 	<Owner Name="{0}" OwnerName="" />
 </XMLDialogOwners>

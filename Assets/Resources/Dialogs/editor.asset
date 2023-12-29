@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: editor
   m_EditorClassIdentifier: 
   dialogs:
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: Black
       effect: 0
@@ -24,8 +24,8 @@ MonoBehaviour:
         x: 1170
         y: 2532
     dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uD5E5... \uD5E5..."
+      name: 
+      text: ...
       tipEvent: []
       dialogAnimations: []
       active: 1
@@ -46,20 +46,20 @@ MonoBehaviour:
         y: 
     characters: []
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
-      name: 1
+      name: Black
       effect: 0
       title: 
       description: 
       effectDuration: 1
       scale:
-        x: 
+        x: 1170
         y: 2532
     dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC5EC\uAE30 \uD559\uAD50\uB294 \uC65C\uC774\uB9AC \uC624\uAE30\uAC00
-        \uD798\uB4E4\uC5B4..."
+      name: 
+      text: "\uC624\uB298\uC740 \uB514\uC9C0\uD14D \uACE0\uB4F1\uD559\uAD50\uC758
+        \uCCAB \uB4F1\uAD50\uB0A0\uC774\uB2E4."
       tipEvent: []
       dialogAnimations: []
       active: 1
@@ -80,7 +80,149 @@ MonoBehaviour:
         y: 
     characters: []
     animationLists: []
-  - bgm: School
+  - bgm: 
+    dialogBackground:
+      name: Black
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 1170
+        y: 2532
+    dialogText:
+      name: 
+      text: "\uC9C0\uD558\uCCA0\uC5D0\uC11C \uBD80\uD130 \uBCF4\uC774\uB294 \uB098\uC640
+        \uAC19\uC740 \uAD50\uBCF5\uC758 \uB2E4\uC591\uD55C \uD559\uC0DD\uB4E4..."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters: []
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: Black
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 1170
+        y: 2532
+    dialogText:
+      name: 
+      text: "\uB0B4\uAC00 \uBAA8\uB450\uB791 \uCE5C\uD574\uC9C8 \uC218 \uC788\uC744\uAE4C?"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters: []
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 6
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: 
+      text: "\uCCAB \uB4F1\uAD50\uB77C \uAE38\uC744 \uCC3E\uAE30 \uD798\uB4E4\uC5C8\uC9C0\uB9CC,
+        \uB098\uC640 \uAC19\uC740 \uAD50\uBCF5\uC744 \uB530\uB77C \uC6A9\uC0B0 03\uBC88
+        \uB9C8\uC744\uBC84\uC2A4\uD2C0 \uD0C0\uACE0 \uC774\uB3D9\uD558\uC600\uB2E4."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters: []
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 6
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: 
+      text: 
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters: []
+    animationLists:
+    - index: 0
+      animations:
+      - type: 3
+        effect: Black_FadeIn
+        name: 
+        parameter: 
+        duration: 1
+  - bgm: 
     dialogBackground:
       name: 1
       effect: 0
@@ -91,7 +233,81 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uD559\uC0DD"
+      name: "\uC8FC\uC778\uACF5"
+      text: "\uC5EC\uAE30\uAC00 \uB9DE\uB098?"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters: []
+    animationLists:
+    - index: 0
+      animations:
+      - type: 3
+        effect: Black_FadeOut
+        name: 
+        parameter: 
+        duration: 1
+  - bgm: 
+    dialogBackground:
+      name: 1
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uC8FC\uC778\uACF5"
+      text: "\uC8FC\uBCC0 \uAE38\uC774 \uB108\uBB34 \uC548\uC775\uC219\uD574\uC11C
+        \uD798\uB4DC\uB124..."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters: []
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 1
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uC8FC\uC778\uACF5"
       text: "\uBB50 \uCC98\uC74C\uC774\uB77C \uD798\uB4E0\uAC70\uC9C0, \uC775\uC219\uD574\uC9C0\uBA74
         \uAD1C\uCC2E\uC544\uC9C0\uACA0\uC9C0."
       tipEvent: []
@@ -114,40 +330,7 @@ MonoBehaviour:
         y: 
     characters: []
     animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 1
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC5EC\uAE30\uAC00 \uB0B4\uAC00 3\uB144 \uB3D9\uC548 \uB2E4\uB2D0 \uD559\uAD50\uC778\uAC00..."
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters: []
-    animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 1
       effect: 0
@@ -164,7 +347,7 @@ MonoBehaviour:
       dialogAnimations: []
       active: 1
       invisible: 0
-      owner: 
+      owner: Hiroine
     eventList: []
     optionList: []
     dialogPopup:
@@ -179,13 +362,13 @@ MonoBehaviour:
         x: 
         y: 
     characters:
-    - name: Loli
-      clothes: Black
-      face: Default
+    - name: Hiroine
+      clothes: Default
+      face: 2
       size: 2
       dark: 0
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 1
       effect: 0
@@ -196,7 +379,7 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uD559\uC0DD"
+      name: "\uC8FC\uC778\uACF5"
       text: "\uC5B4, \uB098\uCC98\uB7FC \uC2E0\uC785\uC0DD\uC778\uAC00?"
       tipEvent: []
       dialogAnimations: []
@@ -217,13 +400,13 @@ MonoBehaviour:
         x: 
         y: 
     characters:
-    - name: Loli
-      clothes: Black
-      face: Default
+    - name: Hiroine
+      clothes: Default
+      face: 2
       size: 2
       dark: 1
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 1
       effect: 0
@@ -234,7 +417,7 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uD559\uC0DD"
+      name: 
       text: "\uC778\uC0AC\uB77C\uB3C4 \uD574\uBCFC\uAE4C?"
       tipEvent: []
       dialogAnimations: []
@@ -242,19 +425,7 @@ MonoBehaviour:
       invisible: 0
       owner: 
     eventList: []
-    optionList:
-    - script: "\uC548\uB155! \uB108\uB3C4 \uC2E0\uC785\uC0DD\uC774\uC57C?"
-      dialog: editor_Option_0
-      dialogEventType: 0
-      special: 0
-      dialogs: []
-      eventList: []
-    - script: "\uBC18\uAC00\uC6CC! \uC5C4\uCCAD \uC77C\uCC0D \uC654\uB124?"
-      dialog: editor_Option_1
-      dialogEventType: 0
-      special: 0
-      dialogs: []
-      eventList: []
+    optionList: []
     dialogPopup:
       name: 
       pos:
@@ -267,13 +438,13 @@ MonoBehaviour:
         x: 
         y: 
     characters:
-    - name: Loli
-      clothes: Black
-      face: Default
+    - name: Hiroine
+      clothes: Default
+      face: 2
       size: 2
       dark: 1
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 1
       effect: 0
@@ -284,607 +455,8 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: ???
-      text: ...
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
       name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 1
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: ???
-      text: "\uC5B4... \uADF8... \uC0C8\uB85C \uC654\uB2E4\uB358 \uC2E0\uC785\uC0DD..
-        \uB9DE\uC9C0?"
-      tipEvent: []
-      dialogAnimations:
-      - startIndex: 5
-        type: 0
-        parameter: 0.5
-      - startIndex: 10
-        type: 0
-        parameter: 0.5
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 1
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC544 \uB124... \uADF8... \uB7F0\uB370\uC694?"
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 1
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uC810\uD654"
-      text: "\uADF8... \uB09C \uC810\uD654\uB77C\uACE0 \uD558\uACE0, 2\uD559\uB144\uC774\uC57C."
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: Default
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 1
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC5B4? \uC11C... \uC120\uBC30\uB2D8\uC774\uC168\uAD70\uC694! \uC8C4\uC1A1\uD569\uB2C8\uB2E4!"
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList:
-    - script: "90\uB3C4\uB85C \uBA38\uB9AC\uB97C \uC219\uC778\uB2E4."
-      dialog: 
-      dialogEventType: 0
-      special: 0
-      dialogs: []
-      eventList: []
-    - script: "\uB0A9\uC791 \uC5CE\uB4DC\uB824 \uBE48\uB2E4"
-      dialog: 
-      dialogEventType: 0
-      special: 0
-      dialogs: []
-      eventList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: Default
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 1
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uC810\uD654"
-      text: "\uC544\uB0D0 \uC544\uB0D0, \uADF8\uB9AC \uBBF8\uC548\uD574\uD558\uC9C0
-        \uC54A\uC544\uB3C4 \uB3FC, \uC6D0\uB798\uB3C4 \uAC00\uB054 \uC624\uD574\uBC1B\uC558\uAC70\uB4E0."
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 1
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC544\uD558\uD558... \uC8C4\uC1A1\uD569\uB2C8\uB2E4"
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 3
-      effect: 2
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uC810\uD654"
-      text: "\uD559\uAD50 \uC624\uAE30 \uD798\uB4E4\uC9C0? \uCC98\uC74C\uC77C\uD150\uB370
-        \uD798\uB4E4\uC5C8\uACA0\uB124."
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 3
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uB124, \uC644\uC804 \uCC98\uC74C\uC774\uB77C \uAE38 \uCC3E\uAE30\uB3C4
-        \uC5B4\uB514\uAC00 \uBB54\uC9C0 \uC54C\uAE30\uB3C4 \uD798\uB4E4\uB354\uB77C\uACE0\uC694."
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 3
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uC810\uD654"
-      text: "\uD559\uAD50\uC5D0 \uBB50\uAC00 \uC5B4\uB514 \uC788\uB294\uC9C0\uB294
-        \uC54C\uC544?"
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 3
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC544\uB1E8, \uADF8\uB798\uC11C \uC800\uD76C \uBC18 \uCC3E\uB294\uB370
-        \uC624\uB798 \uAC78\uB9B4\uAC70 \uAC19\uC544\uC11C, \uC77C\uCC0D \uC654\uC5B4\uC694."
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 3
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uC810\uD654"
-      text: "\uC74C... \uADF8\uB7EC\uBA74 \uAC04\uB2E8\uD558\uAC8C \uD559\uAD50\uC5D0
-        \uB300\uD574 \uC54C\uB824\uC904\uAE4C? \uC2DC\uAC04\uB3C4 \uB9CE\uC73C\uB2C8\uAE4C."
-      tipEvent: []
-      dialogAnimations:
-      - startIndex: 27
-        type: 0
-        parameter: 0.5
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 3
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC544! \uB124! \uADF8\uB798\uC8FC\uC2DC\uBA74 \uAC10\uC0AC\uD558\uACA0\uC2B5\uB2C8\uB2E4!"
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 3
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uC810\uD654"
-      text: "\uC77C\uB2E8 B1\uCE35 \uBD80\uD130 \uAC00\uBCFC\uAE4C, \uC5D8\uB9AC\uBCA0\uC774\uD130
-        \uD0C0\uACE0 \uAC00\uC790."
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 3
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uB124!"
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 2
-      effect: 2
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uD559\uC0DD"
-      text: ...
+      text: "\uC544, \uBC8C\uC368 \uAC00\uBC84\uB838\uB124"
       tipEvent: []
       dialogAnimations: []
       active: 1
@@ -905,7 +477,173 @@ MonoBehaviour:
         y: 
     characters: []
     animationLists: []
-  - bgm: School
+  - bgm: 
+    dialogBackground:
+      name: 1
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: 
+      text: "\uB098\uC911\uC5D0 \uAE30\uD68C\uAC00 \uB418\uBA74 \uBCFC \uC218 \uC788\uACA0\uC9C0."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters: []
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 1
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: 
+      text: "7\uC2DC 55\uBD84... \uC870\uD68C\uAE4C\uC9C0\uB294 \uC2DC\uAC04\uC774
+        \uB9CE\uC774 \uB0A8\uC558\uB294\uB370"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters: []
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 1
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: 
+      text: "\uD55C\uBC88 \uAD50\uC2E4\uC774\uB098 \uB458\uB7EC\uBCFC\uAE4C?"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters: []
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 2
+      effect: 1
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: 
+      text: 
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters: []
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 2
+      effect: 1
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: 
+      text: 
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: 
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters: []
+    animationLists: []
+  - bgm: 
     dialogBackground:
       name: 2
       effect: 0
@@ -916,8 +654,8 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC774\uC058\uB124..."
+      name: 
+      text: "\uBDF0\uAC00 \uB418\uAC8C \uC88B\uB124..."
       tipEvent: []
       dialogAnimations: []
       active: 1
@@ -938,7 +676,7 @@ MonoBehaviour:
         y: 
     characters: []
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 2
       effect: 0
@@ -949,8 +687,8 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uC810\uD654"
-      text: "\uC790, \uB0B4\uB9AC\uC790."
+      name: 
+      text: 
       tipEvent: []
       dialogAnimations: []
       active: 1
@@ -970,144 +708,18 @@ MonoBehaviour:
         x: 
         y: 
     characters: []
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 2
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC544 \uB124!"
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters: []
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 5
-      effect: 2
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uC810\uD654"
-      text: "\uC790, \uC5EC\uAE30\uB294 \uB9E5\uC2E4\uC774\uC57C."
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters: []
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 5
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC774\uB984 \uADF8\uB300\uB85C \uB9E5\uC774 \uB418\uAC8C \uB9CE\uB124\uC694..."
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters: []
-    animationLists: []
-  - bgm: School
-    dialogBackground:
-      name: 5
-      effect: 0
-      title: 
-      description: 
-      effectDuration: 1
-      scale:
-        x: 
-        y: 2532
-    dialogText:
-      name: "\uC810\uD654"
-      text: "\uC790\uB9AC\uB9C8\uB2E4 \uC561\uC815 \uD0C0\uBE14\uB81B\uB3C4 \uC788\uC5B4\uC11C,
-        \uADF8\uB798\uD53D\uC774 \uC791\uC5C5\uD558\uAE30 \uB531\uC778 \uACF3\uC774\uC9C0."
-      tipEvent: []
-      dialogAnimations: []
-      active: 1
-      invisible: 0
-      owner: 
-    eventList: []
-    optionList: []
-    dialogPopup:
-      name: 
-      pos:
-        x: 0
-        y: 100
-      pivot:
-        x: 0.5
-        y: 0.5
-      scale:
-        x: 
-        y: 
-    characters: []
-    animationLists: []
-  - bgm: School
+    animationLists:
+    - index: 0
+      animations:
+      - type: 3
+        effect: Black_FadeIn
+        name: 
+        parameter: 
+        duration: 1
+  - bgm: 
     dialogBackground:
       name: 4
-      effect: 2
+      effect: 0
       title: 
       description: 
       effectDuration: 1
@@ -1115,8 +727,8 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uC810\uD654"
-      text: "\uB09C \uBCF4\uD1B5 \uC5EC\uAE30\uC11C \uC791\uC5C5\uD574."
+      name: "\uC8FC\uC778\uACF5"
+      text: "\uC5EC\uAE30\uB294 \uC5B4\uB514\uC9C0?"
       tipEvent: []
       dialogAnimations: []
       active: 1
@@ -1135,14 +747,54 @@ MonoBehaviour:
       scale:
         x: 
         y: 
+    characters: []
+    animationLists:
+    - index: 0
+      animations:
+      - type: 3
+        effect: Black_FadeOut
+        name: 
+        parameter: 
+        duration: 1
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: ???
+      text: "\uC5EC\uAE34 \uADF8\uB798\uD53D \uC218\uC5C5 \uAD50\uC2E4\uC774\uC57C."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
     characters:
-    - name: Loli
+    - name: Hiroine
       clothes: Default
-      face: DefaultLight
+      face: 4
       size: 2
       dark: 0
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 4
       effect: 0
@@ -1153,8 +805,101 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC544 \uC120\uBC30\uB2D8\uC740 \uADF8\uB9BC \uADF8\uB9AC\uC2DC\uB294\uAD70\uC694!"
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uC548\uB155? \uB098\uB294 \uACF5\uC720\uB9AC\uB77C\uACE0 \uD574. \uB108\uB3C4
+        \uD639\uC2DC \uC2E0\uC785\uC0DD\uC774\uB2C8?"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList:
+    - script: "\uB09C 2\uD559\uB144\uC778\uB370?"
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
+    - script: "\uC5B4? \uB108\uB3C4 \uC2E0\uC785\uC0DD\uC774\uC57C?"
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 4
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uB2E8\uD1A1\uBC29\uC5D0\uC11C \uC774\uB984\uC774 \uD2B9\uC774\uD574\uC11C
+        \uAE30\uC5B5\uD558\uACE0 \uC788\uC5B4. \uC8FC\uC778\uACF5 \uB9DE\uC9C0?"
+      tipEvent: []
+      dialogAnimations:
+      - startIndex: 24
+        type: 0
+        parameter: 0.5
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 4
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uC8FC\uC778\uACF5"
+      text: "\uC544! \uC6B0\uB9AC \uAC19\uC740 \uBC18\uC774\uC600\uB098?"
       tipEvent: []
       dialogAnimations: []
       active: 1
@@ -1174,13 +919,13 @@ MonoBehaviour:
         x: 
         y: 
     characters:
-    - name: Loli
+    - name: Hiroine
       clothes: Default
-      face: DefaultLight
+      face: 4
       size: 2
       dark: 1
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 4
       effect: 0
@@ -1191,10 +936,133 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uC810\uD654"
-      text: "\uC751, \uB108\uB294 \uD504\uB85C\uADF8\uB798\uBC0D \uC9C0\uB9DD\uC774\uB2C8?"
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uC751, \uAC19\uC740 1\uD559\uB144 1\uBC18\uC774\uC57C."
       tipEvent: []
       dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 4
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uB2E4\uC2DC \uC598\uAE30\uD558\uBA74, \uB098\uB294 \uACF5\uC720\uB9AC\uB77C\uACE0
+        \uD558\uACE0, \uC5EC\uAE30\uB294 \uADF8\uB798\uD53D \uAD50\uC2E4\uC774\uC57C."
+      tipEvent: []
+      dialogAnimations:
+      - startIndex: 22
+        type: 0
+        parameter: 0.5
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 4
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uC6B0\uB9AC 1\uAD50\uC2DC\uAC00 \uC9C4\uD589\uB418\uB294 \uACF3\uC774\uAE30\uB3C4
+        \uD558\uACE0, \uB300\uBD80\uBD84\uC758 \uC120\uBC30\uB2D8\uB4E4\uB3C4 \uC5EC\uAE30\uC11C
+        \uC791\uC5C5\uD558\uC154."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 4
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uC8FC\uC778\uACF5"
+      text: "\uC544 \uACE0\uB9C8\uC6CC... \uADFC\uB370 \uB418\uAC8C \uC798 \uC544\uB124?"
+      tipEvent: []
+      dialogAnimations:
+      - startIndex: 9
+        type: 0
+        parameter: 0.5
       active: 1
       invisible: 0
       owner: 
@@ -1212,13 +1080,13 @@ MonoBehaviour:
         x: 
         y: 
     characters:
-    - name: Loli
+    - name: Hiroine
       clothes: Default
-      face: DefaultLight
+      face: 4
       size: 2
       dark: 1
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 4
       effect: 0
@@ -1229,13 +1097,14 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC544\uB1E8 \uC544\uC9C1 \uBABB\uC815\uD588\uC5B4\uC694"
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uC2E4\uC740 \uC6B0\uB9AC \uC5B8\uB2C8 \uB530\uB77C \uC785\uD559\uD558\uAC8C
+        \uB42C\uAC70\uB4E0."
       tipEvent: []
       dialogAnimations: []
       active: 1
       invisible: 0
-      owner: 
+      owner: Hiroine
     eventList: []
     optionList: []
     dialogPopup:
@@ -1250,13 +1119,13 @@ MonoBehaviour:
         x: 
         y: 
     characters:
-    - name: Loli
+    - name: Hiroine
       clothes: Default
-      face: DefaultLight
+      face: 1
       size: 2
-      dark: 1
+      dark: 0
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 4
       effect: 0
@@ -1267,14 +1136,14 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uC810\uD654"
-      text: "\uADF8\uB807\uAD6C\uB098, \uB9CC\uC57D \uADF8\uB9BC \uBC30\uC6B0\uACE0
-        \uC2F6\uC73C\uBA74 \uB098\uD55C\uD14C \uCC3E\uC544\uC640, \uB3C4\uC640\uC904\uAC8C."
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uB300\uBD80\uBD84 \uC2E4\uC740 \uB2E4 \uC54C\uACE0 \uC788\uC73C\uB2C8,
+        \uB3C4\uC6C0\uC774 \uD544\uC694\uD558\uBA74 \uBD88\uB7EC"
       tipEvent: []
       dialogAnimations: []
       active: 1
       invisible: 0
-      owner: 
+      owner: Hiroine
     eventList: []
     optionList: []
     dialogPopup:
@@ -1289,13 +1158,13 @@ MonoBehaviour:
         x: 
         y: 
     characters:
-    - name: Loli
+    - name: Hiroine
       clothes: Default
-      face: DefaultLight
+      face: 1
       size: 2
-      dark: 1
+      dark: 0
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 4
       effect: 0
@@ -1306,15 +1175,27 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uC544! \uAC10\uC0AC\uD569\uB2C8\uB2E4!"
+      name: "\uC8FC\uC778\uACF5"
+      text: "\uADF8\uB7FC..."
       tipEvent: []
       dialogAnimations: []
       active: 1
       invisible: 0
       owner: 
     eventList: []
-    optionList: []
+    optionList:
+    - script: "\uC774\uAC70 \uB2E4 \uC561\uC815 \uD0C0\uBE14\uB81B\uC774\uC57C?"
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
+    - script: "\uC774\uAC70 \uB2E4 \uB9E5\uC774\uC57C?"
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
     dialogPopup:
       name: 
       pos:
@@ -1326,14 +1207,9 @@ MonoBehaviour:
       scale:
         x: 
         y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
+    characters: []
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 4
       effect: 0
@@ -1344,13 +1220,13 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uC810\uD654"
-      text: "\uADF8\uB7FC, \uB2E4\uC74C \uC7A5\uC18C\uB85C \uAC00\uBCFC\uAE4C?"
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uC751 \uB9DE\uC544."
       tipEvent: []
       dialogAnimations: []
       active: 1
       invisible: 0
-      owner: 
+      owner: Hiroine
     eventList: []
     optionList: []
     dialogPopup:
@@ -1365,13 +1241,13 @@ MonoBehaviour:
         x: 
         y: 
     characters:
-    - name: Loli
+    - name: Hiroine
       clothes: Default
-      face: DefaultLight
+      face: 4
       size: 2
-      dark: 1
+      dark: 0
     animationLists: []
-  - bgm: School
+  - bgm: 
     dialogBackground:
       name: 4
       effect: 0
@@ -1382,8 +1258,403 @@ MonoBehaviour:
         x: 
         y: 2532
     dialogText:
-      name: "\uD559\uC0DD"
-      text: "\uB124!"
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uC790\uB9AC\uB9C8\uB2E4 \uB9E5\uC774\uB791, \uC561\uC815 \uD0C0\uBE14\uB81B\uC774
+        \uC788\uACE0, \uADF8\uB798\uC11C \uB9E5\uC2E4\uC774\uB098 \uBD80\uB974\uB098\uBD10."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 4
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uB108\uB294 \uD639\uC2DC \uADF8\uB798\uD53D\uC744 \uC9C0\uB9DD\uD574\uC11C
+        \uC624\uAC8C \uB42C\uC5B4? \uC544\uB2C8\uBA74 \uD504\uB85C\uADF8\uB798\uBC0D?"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList:
+    - script: "\uB098\uB294 \uADF8\uB798\uD53D\uC774 \uB418\uB294\uAC8C \uAFC8\uC774\uC57C!"
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
+    - script: "\uB098\uB294 \uD504\uB85C\uADF8\uB798\uBC0D\uC774 \uB418\uB294\uAC8C
+        \uAFC8\uC774\uC57C!"
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
+    - script: "\uB098\uB294 \uAE30\uD68D\uC774 \uB418\uB294\uAC8C \uAFC8\uC774\uC57C!"
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
+    - script: "\uB098\uB294 \uC544\uC9C1 \uBABB\uC815\uD588\uC5B4."
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 4
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uADF8\uB807\uAD6C\uB098, \uB09C \uADF8\uB798\uD53D\uC744 \uC9C0\uB9DD\uD558\uACE0
+        \uC788\uC5B4."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 1
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uACF5\uC720\uB9AC"
+      text: "UI UX, \uCE90\uB9AD\uD130 \uC77C\uB7EC\uC2A4\uD2B8 \uC548\uAC00\uB9AC\uACE0
+        \uADF8\uB0E5 \uADF8\uB9AC\uB294\uAC8C \uB108\uBB34 \uC990\uAC81\uACE0 \uC5B8\uB2C8\uAC00
+        \uC5EC\uAE30\uC5D0\uC11C \uC791\uC5C5\uD588\uB358 \uACB0\uACFC\uBB3C\uC744
+        \uBCF4\uB294\uB370 \uB108\uBB34 \uC7AC\uBC0C\uC5B4\uBCF4\uC5EC\uC11C \uC5EC\uAE30\uB85C
+        \uC815\uD558\uAC8C \uB42C\uB294\uB370 \uB2E4\uB978 \uD559\uAD50\uBCF4\uB2E4
+        \uCDE8\uC5C5\uB960\uB3C4 \uB192\uB2E4\uB294\uAC70\uC57C! \uADF8\uB798\uC11C
+        \uC5EC\uAE30\uC5D0"
+      tipEvent: []
+      dialogAnimations:
+      - startIndex: 108
+        type: 2
+        parameter: 0
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 1
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uB0B4\uAC00 \uB108\uBB34 \uC2E0\uB0AC\uC9C0...?"
+      tipEvent: []
+      dialogAnimations:
+      - startIndex: 9
+        type: 0
+        parameter: 0.3
+      - startIndex: 10
+        type: 0
+        parameter: 0.3
+      - startIndex: 11
+        type: 0
+        parameter: 0.3
+      active: 0
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList:
+    - script: "\uC544\uB2C8\uC57C, \uBC1D\uC544\uC11C \uC88B\uB354\uB77C\uACE0."
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
+    - script: "\uC544\uB2C8\uC57C, \uC804\uACF5\uC5D0 \uAD00\uC2EC\uC774 \uB9CE\uC740\uAC74
+        \uC88B\uC740\uAC70\uC9C0."
+      dialog: 
+      dialogEventType: 0
+      special: 0
+      dialogs: []
+      eventList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 1
+      size: 2
+      dark: 1
+    animationLists:
+    - index: 0
+      animations:
+      - type: 0
+        effect: Shake
+        name: Hiroine
+        parameter: 1
+        duration: 0.2
+      - type: 1
+        effect: Wait
+        name: 
+        parameter: 
+        duration: 1
+      - type: 0
+        effect: Face
+        name: Hiroine
+        parameter: 3
+        duration: -1
+      - type: 2
+        effect: On
+        name: 
+        parameter: 
+        duration: -1
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uC544\uD558\uD558 \uC774\uD574\uD574\uC918\uC11C \uACE0\uB9C8\uC6CC,
+        \uB418\uAC8C \uCC29\uD558\uB124."
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 2
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uACF5\uC720\uB9AC"
+      text: '!'
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 3
+      size: 2
+      dark: 0
+    animationLists:
+    - index: 0
+      animations:
+      - type: 0
+        effect: Shake
+        name: Hiroine
+        parameter: 1
+        duration: 0.2
+  - bgm: 
+    dialogBackground:
+      name: 4
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 
+        y: 2532
+    dialogText:
+      name: "\uACF5\uC720\uB9AC"
+      text: "\uACE7 8\uC2DC 20\uBD84\uC774\uC57C, \uCCAB\uB0A0\uBD80\uD130 \uC9C0\uAC01\uD560
+        \uC218\uB294 \uC5C6\uC5B4! \uBE68\uB9AC \uAC00\uC790!"
+      tipEvent: []
+      dialogAnimations: []
+      active: 1
+      invisible: 0
+      owner: Hiroine
+    eventList: []
+    optionList: []
+    dialogPopup:
+      name: 
+      pos:
+        x: 0
+        y: 100
+      pivot:
+        x: 0.5
+        y: 0.5
+      scale:
+        x: 
+        y: 
+    characters:
+    - name: Hiroine
+      clothes: Default
+      face: 3
+      size: 2
+      dark: 0
+    animationLists: []
+  - bgm: 
+    dialogBackground:
+      name: Black
+      effect: 0
+      title: 
+      description: 
+      effectDuration: 1
+      scale:
+        x: 1170
+        y: 2532
+    dialogText:
+      name: 
+      text: "\uADF8\uB807\uAC8C \uB09C \uACF5\uC720\uB9AC\uB97C \uB9CC\uB098\uAC8C
+        \uB42C\uB2E4. \uB418\uAC8C \uBC1D\uC740 \uCE5C\uAD6C\uC600\uB2E4."
       tipEvent: []
       dialogAnimations: []
       active: 1
@@ -1402,10 +1673,5 @@ MonoBehaviour:
       scale:
         x: 
         y: 
-    characters:
-    - name: Loli
-      clothes: Default
-      face: DefaultLight
-      size: 2
-      dark: 1
+    characters: []
     animationLists: []
